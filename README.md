@@ -1,4 +1,3 @@
-
 # Smile-Detecting-Camera
 
 A real-time webcam application built with Python and OpenCV that detects smiles using facial feature cascades and automatically saves high-resolution snapshots.
@@ -17,39 +16,53 @@ A real-time webcam application built with Python and OpenCV that detects smiles 
 ## 🛠️ Prerequisites & Installation
 
 1. **Clone the Repository:**
+
 ```bash
-   git clone https://github.com/Muhammad-Nabeel-Rafique/Smile-Detecting-Camera.git
-   cd Smile-Detecting-Camera
+git clone [https://github.com/Muhammad-Nabeel-Rafique/Smile-Detecting-Camera.git](https://github.com/Muhammad-Nabeel-Rafique/Smile-Detecting-Camera.git)
+cd Smile-Detecting-Camera
 ```
 
-    Create a Virtual Environment:
+2. **Create a Virtual Environment:**
 
-    python -m venv .venv
+```bash
+python -m venv .venv
+```
 
-    Install Dependencies:
+3. **Install Dependencies (Windows Command Prompt / PowerShell):**
 
-        On Windows (Command Prompt / PowerShell):
+```bash
+.\.venv\Scripts\python.exe -m pip install -r requirements.txt
+```
 
-        .\.venv\Scripts\python.exe -m pip install -r requirements.txt
+---
 
-💻 Running the Application
+## 💻 Running the Application
 
-Launch the script using your project's virtual environment python executable:
+Launch the script using your project's virtual environment Python executable:
 
+```bash
 .\.venv\Scripts\python.exe smile_camera.py
+```
 
-    Controls: Press Q on your keyboard while the preview window is active to quit.
+* **Controls:** Press **`Q`** on your keyboard while the preview window is active to quit.
 
-📂 Project Structure
+---
 
+## 📂 Project Structure
+
+```text
 Smile-Detecting-Camera/
 │
 ├── photos/             # Automatically generated folder containing captured smile snapshots
 ├── .gitignore          # Git exclusion rules (ignores virtual environment & caches)
+├── LICENSE             # MIT License
 ├── README.md           # Project documentation
 ├── requirements.txt    # Project dependencies
 └── smile_camera.py     # Main application script
+```
 
-📄 License
+---
 
-This project is open-source and available under the MIT License.
+## 📄 License
+
+This project is open-source and available under the [MIT License](LICENSE).
