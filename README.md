@@ -18,7 +18,7 @@ A real-time webcam application built with Python and OpenCV that detects smiles 
 1. **Clone the Repository:**
 
 ```bash
-git clone [https://github.com/Muhammad-Nabeel-Rafique/Smile-Detecting-Camera.git](https://github.com/Muhammad-Nabeel-Rafique/Smile-Detecting-Camera.git)
+git clone https://github.com/Muhammad-Nabeel-Rafique/Smile-Detecting-Camera.git
 cd Smile-Detecting-Camera
 ```
 
