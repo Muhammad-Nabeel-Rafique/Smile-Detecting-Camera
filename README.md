@@ -20,6 +20,7 @@ A real-time webcam application built with Python and OpenCV that detects smiles 
 ```bash
    git clone https://github.com/Muhammad-Nabeel-Rafique/Smile-Detecting-Camera.git
    cd Smile-Detecting-Camera
+```
 
     Create a Virtual Environment:
 
