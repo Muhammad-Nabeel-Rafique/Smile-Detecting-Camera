@@ -216,5 +216,5 @@ Muhammad Nabeel Rafique
 <p align="center">
   ⭐ If you like this project, consider giving it a star!
 </p><p align="center">
-  Made using Python and OpenCV
+  Made with ❤️ using Python and OpenCV
 </p>
